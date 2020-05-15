@@ -1,7 +1,60 @@
-.main-div {
-    background-color: blue;
+body {
+    background-image: url(https://pic3.zhimg.com/v2-7b47f13d957588f0adfe17bfaf558f8e_r.jpg);
+}
+
+/*navbar布局*/
+.navbar-button {
+    display: inline-block;
 }
 
 .navbar {
-    color: brown;
+    background-color: #E3E3E3;
+    border-radius: 15px;
+}
+
+
+.navbar-input {
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    background-color: #C8C8C9;
+    border-radius: 25px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.navbar-plugins {
+    display: inline-block;
+    text-align: right;
+    border: 1px dotted black;
+}
+
+
+.bookmark {
+    text-align: left;
+    border-radius: 25px;
+    border: 1px solid;
+    display: inline;
+}
+
+.detail {
+    display: none;
+}
+
+
+.main-div {
+    text-align: center;
+    background-color: rgba(rgba(255, 0, 0, 0));
+}
+
+/*下半部分的布局*/
+.google {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #EEEEEE;
+}
+
+.everysite {
+    display: inline-block;
+    border-radius: 25px;
 }
